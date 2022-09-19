@@ -12,7 +12,7 @@ body {
 .container {
     width:80%;
     margin:auto;
-    height:800px;
+    min-height:800px;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +29,8 @@ body {
 
 }
 .image {
-    height:499px;
+    max-height:499px;
+;
 
  }
 .image img { 
@@ -116,6 +117,8 @@ body {
 .button:hover {
     background-color: rgb(2, 85, 2);
 }
+
+
 
 @media (max-width:768px) {
     .card {
